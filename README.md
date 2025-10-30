@@ -145,7 +145,7 @@ phialoastro/
 | Environment | URL | Deployment | Purpose |
 |------------|-----|------------|---------|
 | **Production** | [phialo.de](https://phialo.de) | Manual via GitHub Actions | Live site with custom domain |
-| **Master** | [phialo-master.meise.workers.dev](https://phialo-master.lovebird.workers.dev) | Automatic on push | Latest master branch |
+| **Master** | [phialo-master.lovebird.workers.dev](https://phialo-master.lovebird.workers.dev) | Automatic on push | Latest master branch |
 | **PR Preview** | `phialo-pr-{number}.lovebird.workers.dev` | Automatic on PR | Isolated testing per PR |
 
 ### Required Secrets

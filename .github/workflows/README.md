@@ -39,7 +39,7 @@ graph TD
 ### `performance-check-v2.yml` (v2 - New)
 - **Trigger**: After PR preview deployment completes
 - **Purpose**: Run Lighthouse CI against deployed PR previews
-- **Environment**: Tests against `https://phialo-pr-{number}.meise.workers.dev`
+- **Environment**: Tests against `https://phialo-pr-{number}.lovebird.workers.dev`
 - **Status**: Testing phase
 - **Benefits**:
   - Real-world performance metrics
@@ -66,7 +66,7 @@ graph TD
 #### `deploy-pr-preview.yml`
 - **Trigger**: PR opened/updated
 - **Purpose**: Deploy PR preview to Cloudflare Workers
-- **Output**: `https://phialo-pr-{number}.meise.workers.dev`
+- **Output**: `https://phialo-pr-{number}.lovebird.workers.dev`
 
 #### `deploy-master.yml`
 - **Trigger**: Push to master branch

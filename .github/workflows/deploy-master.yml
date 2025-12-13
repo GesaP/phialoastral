@@ -40,7 +40,7 @@ jobs:
     with:
       environment: master
       worker-name: phialo-master
-      deployment-url: https://phialo-master.meise.workers.dev
+      deployment-url: https://phialo-master.lovebird.workers.dev
       analytics-enabled: true
       cache-version: v1-master
       enable-performance-comment: false

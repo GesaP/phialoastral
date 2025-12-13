@@ -126,8 +126,8 @@ jobs:
         with:
           working-directory: ${{ inputs.working-directory }}
           cache-version: ${{ inputs.cache-version }}
-          analytics-token: ${{ inputs.analytics-enabled && secrets.PUBLIC_CLOUDFLARE_ANALYTICS_TOKEN || '' }}
-          turnstile-site-key: ${{ secrets.PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY }}
+          analytics-token: ${{ inputs.analytics-enabled && vars.PUBLIC_CLOUDFLARE_ANALYTICS_TOKEN || '' }}
+          turnstile-site-key: ${{ vars.PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY }}
           use-cache: 'true'
           
       - name: 🚀 Deploy to Cloudflare Workers

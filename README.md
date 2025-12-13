@@ -294,7 +294,7 @@ For commercial licensing, contact: info@phialo.de
 <p align="center">
   Made with ❤️ by Phialo Design 💎<br>
   © 2025 Phialo Design. All rights reserved. <br>
-   Fork of [barde/phialoastro](https://github.com/barde/phialoastro) by barde. Maintained solely by Gesa Pickbrenner since Oct 2025. Licensed per upstream.
+   Fork of (https://github.com/barde/phialoastro) by barde. Maintained solely by Gesa Pickbrenner since Oct 2025. Licensed per upstream.
 
 </p>
 

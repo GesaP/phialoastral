@@ -70,7 +70,7 @@ const currentContent = content[lang];
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <!-- Text content - left side on desktop, second on mobile -->
           <div class="space-y-6 px-5 md:px-0 order-2 lg:order-1">
-            {currentContent.gesaContent.map((paragraph) => (
+            {(currentContent.gesaContent ?? []).map((paragraph) => (
               <p class="text-lg leading-relaxed text-gray-700">
                 {paragraph}
               </p>
@@ -141,7 +141,7 @@ const currentContent = content[lang];
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <!-- Text content - left side on desktop, second on mobile -->
           <div class="space-y-6 px-5 md:px-0 order-2 lg:order-1">
-            {currentContent.bartholomausContent.map((paragraph) => (
+            {(currentContent.bartholomausContent. ?? []).map((paragraph) => (
               <p class="text-lg leading-relaxed text-gray-700">
                 {paragraph}
               </p>

@@ -23,11 +23,7 @@ const content = {
       '2023 schloss ich mein Studium mit einem Bachelor in Wirtschaftswissenschaften an der Fernuni Hagen ab. Die künstlerische Vision verbinde ich mit einem hohen Bildungsstandard sowie einem ausgeprägten Sinn für ein rationales und effizientes Vorgehen.',
       'Ich setze mich als Lehrende dafür ein, dass jeder seinen eigenen einzigartigen kreativen Ausdruck und seine künstlerische Stimme findet. Als Handwerkerin schätze ich eine tiefe Wissensbasis über die verwendeten alten und neuen Technologien, wie 3D-Programme, 3D-Druck, Goldschmiedekunst und AI. Als Künstlerin liebe ich es, ungewohnte Wege zu gehen und völlig neue Schmuckwelten zu erschaffen.'
     ],
-    gesaName: 'Gesa Pickbrenner',
-    bartholomausName: 'Bartholomäus Dedersen - Mitgründer (2018-2025), nicht mehr aktiv seit 10/2025',
-    bartholomausContent: [
-'Phialo wurde 2018 von Gesa Pickbrenner und Bartholomäus Dedersen mitgegründet. In den Anfangsjahren lag sein Schwerpunkt auf digitaler Infrastruktur, maßgeschneiderten Tools und Innovation. Seit 10/2025 führt Gesa das Studio alleine weiter. Wir schätzen Bartholomäus\' Beiträge zur Gründungsphase.'
-    ]
+    gesaName: 'Gesa Pickbrenner'
   },
   en: {
     gesaContent: [
@@ -38,11 +34,8 @@ const content = {
       'In 2023, I completed my studies with a Bachelor\'s degree in Economics at Fernuni Hagen. I combine artistic vision with a high educational standard and a strong sense of rational and efficient approach.',
       'As a teacher, I am committed to helping everyone find their own unique creative expression and artistic voice. As a craftswoman, I value a deep knowledge base about the old and new technologies used, such as 3D programs, 3D printing, goldsmithing, and AI. As an artist, I love to take unconventional paths and create completely new jewelry worlds.'
     ],
-    gesaName: 'Gesa Pickbrenner',
-    bartholomausName: 'Bartholomäus Dedersen - Co-Founder (2018-2025), not active since Oct 2025',
-    bartholomausContent: [
-'Phialo was co-founded by Gesa Pickbrenner and Bartholomäus Dedersen in 2018. In the founding years, Bartholomäus focused on digital infrastructure, custom tools and innovation. Since Oct 2025, Phialo is led solely by Gesa. We’re grateful for Bartholomäus\' early contributions.'
-    ]
+    gesaName: 'Gesa Pickbrenner'
+
   }
 };
 
@@ -132,37 +125,7 @@ const currentContent = content[lang];
         </div>
       </div>
 
-      <!-- Bartholomäus Dedersen Section -->
-      <div class="mb-20">
-        <h2 class="font-display text-3xl md:text-4xl font-medium text-midnight mb-12 text-center">
-          {currentContent.bartholomausName}
-        </h2>
-        
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <!-- Text content - left side on desktop, second on mobile -->
-          <div class="space-y-6 px-5 md:px-0 order-2 lg:order-1">
-            {(currentContent.bartholomausContent ?? []).map((paragraph) => (
-              <p class="text-lg leading-relaxed text-gray-700">
-                {paragraph}
-              </p>
-            ))}
-          </div>
-
-          <!-- Image and Social Links - right side on desktop, first on mobile -->
-          <div class="flex flex-col items-center px-5 md:px-0 order-1 lg:order-2">
-            <TeamMemberImage
-              primaryImage="/bartholomaeus-portrait.jpg"
-              hoverImage="/bartholomaeus-portrait-alt.jpg"
-              alt={currentContent.bartholomausName}
-              className="w-full h-auto rounded-lg shadow-xl"
-              client:load
-            />
-            
-            <!-- Social Links -->
-          
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
 </PageLayout>

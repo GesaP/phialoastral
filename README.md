@@ -7,7 +7,6 @@
 [![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-cc00ff.svg)](https://pnpm.io/)
 
 A luxury jewelry portfolio website built with cutting-edge web technologies, featuring multilingual support (German/English), responsive design, and deployed on Cloudflare Workers for optimal global performance.<br>
-Fork of (https://github.com/barde/phialoastro) by barde. Maintained solely by Gesa Pickbrenner since Oct 2025. Licensed per upstream.
 
 🌐 **Live Site**: [phialo.de](https://phialo.de)
 
@@ -295,8 +294,6 @@ For commercial licensing, contact: info@phialo.de
 <p align="center">
   Made with ❤️ by Phialo Design 💎<br>
   © 2025 Phialo Design. All rights reserved. <br>
-   Fork of (https://github.com/barde/phialoastro) by barde. Maintained solely by Gesa Pickbrenner since Oct 2025. Licensed per upstream.
-
 </p>
 
 

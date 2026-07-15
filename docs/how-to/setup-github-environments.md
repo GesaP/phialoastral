@@ -37,7 +37,7 @@ Click **Add secret** for each:
 
 1. **Environment URL**: 
    ```
-   https://phialo-pr-${{ github.event.pull_request.number }}.meise.workers.dev
+   https://phialo-pr-${{ github.event.pull_request.number }}.lovebird.workers.dev
    ```
 
 2. **Deployment branches**:
@@ -107,7 +107,7 @@ When a PR is created:
 1. Workflow runs with `environment: preview`
 2. Uses preview environment secrets (test API key)
 3. No approval required
-4. Deploys to `phialo-pr-{number}.meise.workers.dev`
+4. Deploys to `phialo-pr-{number}.lovebird.workers.dev`
 
 ### Production Deployments
 

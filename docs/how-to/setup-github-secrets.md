@@ -88,7 +88,7 @@ After adding the secrets:
 
 1. Create a new PR or push to an existing PR
 2. Wait for the PR preview deployment to complete
-3. Visit the preview URL (e.g., `https://phialo-pr-123.meise.workers.dev`)
+3. Visit the preview URL (e.g., `https://phialo-pr-123.lovebird.workers.dev`)
 4. Test the contact form - it should now send emails successfully
 
 ## Troubleshooting

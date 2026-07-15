@@ -34,8 +34,8 @@ This guide covers deployment workflows for the Phialo Design website using Cloud
 | Environment | URL | Purpose |
 |------------|-----|---------|
 | Production | https://phialo.de | Live website |
-| Master | https://phialo-master.meise.workers.dev | Latest master branch |
-| Preview | https://phialo-pr-{number}.meise.workers.dev | PR previews |
+| Master | https://phialo-master.lovebird.workers.dev | Latest master branch |
+| Preview | https://phialo-pr-{number}.lovebird.workers.dev | PR previews |
 
 ## Quick Start
 
@@ -85,13 +85,13 @@ pnpm run dev
 - **File**: `.github/workflows/deploy-master.yml`
 - **Trigger**: Push to master branch
 - **Environment**: preview (shared with PR previews)
-- **URL**: https://phialo-master.meise.workers.dev
+- **URL**: https://phialo-master.lovebird.workers.dev
 
 ### PR Preview
 - **File**: `.github/workflows/cloudflare-pr-preview.yml`
 - **Trigger**: PR opened/updated
 - **Environment**: preview
-- **URL**: https://phialo-pr-{number}.meise.workers.dev
+- **URL**: https://phialo-pr-{number}.lovebird.workers.dev
 
 When you create or update a PR that modifies files in `workers/` or `phialo-design/`, the workflow automatically:
 1. Builds the Astro site

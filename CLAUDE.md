@@ -446,13 +446,13 @@ Implementation files:
 - **Note**: Requires zone permissions for custom domain
 
 #### Master (`phialo-master`) 
-- **URL**: https://phialo-master.meise.workers.dev
+- **URL**: https://phialo-master.lovebird.workers.dev
 - **Deployment**: Automatic on push to master branch
 - **Purpose**: Latest master branch deployment
 - **Manual Deploy**: Available via GitHub Actions UI
 
 #### Ephemeral PR Previews (`phialo-pr-{number}`)
-- **URL**: https://phialo-pr-{number}.meise.workers.dev
+- **URL**: https://phialo-pr-{number}.lovebird.workers.dev
 - **Deployment**: Automatic on PR creation/update
 - **Cleanup**: Automatic on PR close/merge
 - **Purpose**: Isolated testing for each PR

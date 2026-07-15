@@ -27,7 +27,7 @@ We should create three GitHub environments:
   - `RESEND_API_KEY` (test API key)
   - `FROM_EMAIL` (onboarding@resend.dev)
   - `TO_EMAIL` (test email)
-- **Environment URL**: `https://phialo-pr-*.meise.workers.dev`
+- **Environment URL**: `https://phialo-pr-*.lovebird.workers.dev`
 
 #### Production Environment
 - **Protection Rules**:
@@ -49,7 +49,7 @@ We should create three GitHub environments:
 3. Create `preview` environment:
    ```
    Name: preview
-   Environment URL: https://phialo-pr-${{ github.event.pull_request.number }}.meise.workers.dev
+   Environment URL: https://phialo-pr-${{ github.event.pull_request.number }}.lovebird.workers.dev
    ```
 4. Add environment secrets
 5. Repeat for `production` environment

@@ -121,7 +121,7 @@ jobs:
         run: |
           DEPLOYMENT_URL="https://phialo.de"
           if [ "${{ needs.validate-webhook.outputs.environment }}" = "preview" ]; then
-            DEPLOYMENT_URL="https://phialo-design-preview.meise.workers.dev"
+            DEPLOYMENT_URL="https://phialo-design-preview.lovebird.workers.dev"
           fi
           
           # Send callback to webhook sender

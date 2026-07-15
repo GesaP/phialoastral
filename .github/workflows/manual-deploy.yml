@@ -74,14 +74,14 @@ jobs:
                 exit 1
               fi
               echo "worker-name=phialo-pr-${PR_NUMBER}" >> $GITHUB_OUTPUT
-              echo "deployment-url=https://phialo-pr-${PR_NUMBER}.meise.workers.dev" >> $GITHUB_OUTPUT
+              echo "deployment-url=https://phialo-pr-${PR_NUMBER}.lovebird.workers.dev" >> $GITHUB_OUTPUT
               echo "analytics-enabled=false" >> $GITHUB_OUTPUT
               echo "cache-version=v1-pr-${PR_NUMBER}" >> $GITHUB_OUTPUT
               echo "enable-performance-comment=true" >> $GITHUB_OUTPUT
               ;;
             master)
               echo "worker-name=phialo-master" >> $GITHUB_OUTPUT
-              echo "deployment-url=https://phialo-master.meise.workers.dev" >> $GITHUB_OUTPUT
+              echo "deployment-url=https://phialo-master.lovebird.workers.dev" >> $GITHUB_OUTPUT
               echo "analytics-enabled=true" >> $GITHUB_OUTPUT
               echo "cache-version=v1-master" >> $GITHUB_OUTPUT
               echo "enable-performance-comment=false" >> $GITHUB_OUTPUT

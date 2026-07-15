@@ -85,7 +85,7 @@ jobs:
           BUILD_ID: pr-${{ needs.check-trigger.outputs.pr-number }}-${{ github.run_number }}
           BROWSERSTACK_BUILD_NAME: 'PR #${{ needs.check-trigger.outputs.pr-number }}'
           BROWSERSTACK_PROJECT_NAME: 'Phialo Design'
-          BASE_URL: https://phialo-pr-${{ needs.check-trigger.outputs.pr-number }}.meise.workers.dev
+          BASE_URL: https://phialo-pr-${{ needs.check-trigger.outputs.pr-number }}.lovebird.workers.dev
           
       - name: Upload test results
         if: always()

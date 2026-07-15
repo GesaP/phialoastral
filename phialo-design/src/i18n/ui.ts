@@ -33,12 +33,6 @@ export const ui = {
     'about.intro': 'Willkommen bei Phialo Design, wo jedes Schmuckstück eine Geschichte erzählt. Mit über 20 Jahren Erfahrung in der Schmuckherstellung verbinden wir traditionelle Handwerkskunst mit zeitgenössischem Design.',
     'about.philosophy': 'Unsere Philosophie ist einfach: Jedes Stück sollte zeitlos, elegant und einzigartig sein. Wir glauben an die Schönheit der Einfachheit und die Kraft des Details.',
     'about.materials': 'Wir arbeiten ausschließlich mit den feinsten Materialien - von konfliktfreien Diamanten bis zu ethisch gewonnenem Gold und Silber. Nachhaltigkeit und Qualität stehen im Mittelpunkt unseres Schaffens.',
-    'about.team.heading': 'Unser Team',
-    'about.team.founder': 'Gründerin & Designerin',
-    'about.team.cofounder': 'Co-Founder & IT',
-    'about.team.founder.bio': 'Mit einer Leidenschaft für zeitloses Design und nachhaltigen Luxus leitet Gesa Meise die kreative Vision von Phialo Design. Ihre langjährige Erfahrung in traditionellen Goldschmiedetechniken verbindet sie mit modernen Designansätzen.',
-    'about.team.cofounder.bio': 'Als technischer Visionär bringt Bartholomäus Dedersen digitale Innovation zu Phialo Design. Seine Expertise in modernen Technologien ermöglicht es uns, traditionelles Handwerk mit digitaler Exzellenz zu verbinden.',
-    
     // Contact Page
     'contact.title': 'Kontakt - Phialo Design',
     'contact.description': 'Nehmen Sie Kontakt mit uns auf für individuelle Schmuckanfertigungen oder Fragen zu unseren Kollektionen.',
@@ -119,12 +113,6 @@ export const ui = {
     'about.intro': 'Welcome to Phialo Design, where every piece of jewelry tells a story. With over 20 years of experience in jewelry making, we combine traditional craftsmanship with contemporary design.',
     'about.philosophy': 'Our philosophy is simple: Every piece should be timeless, elegant, and unique. We believe in the beauty of simplicity and the power of detail.',
     'about.materials': 'We work exclusively with the finest materials - from conflict-free diamonds to ethically sourced gold and silver. Sustainability and quality are at the heart of our creations.',
-    'about.team.heading': 'Our Team',
-    'about.team.founder': 'Founder & Designer',
-    'about.team.cofounder': 'Co-Founder & IT',
-    'about.team.founder.bio': 'With a passion for timeless design and sustainable luxury, Gesa Meise leads the creative vision of Phialo Design. She combines years of experience in traditional goldsmithing techniques with modern design approaches.',
-    'about.team.cofounder.bio': 'As a technical visionary, Bartholomäus Dedersen brings digital innovation to Phialo Design. His expertise in modern technologies enables us to combine traditional craftsmanship with digital excellence.',
-    
     // Contact Page
     'contact.title': 'Contact - Phialo Design',
     'contact.description': 'Get in touch with us for custom jewelry orders or questions about our collections.',

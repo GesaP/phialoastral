@@ -96,7 +96,7 @@ self.addEventListener('fetch', (event) => {
     url.origin === self.location.origin ||
     url.hostname === 'phialo.de' ||
     url.hostname === 'www.phialo.de' ||
-    url.hostname.match(/^phialo-(pr-\d+|master|preview)\.meise\.workers\.dev$/) ||
+    url.hostname.match(/^phialo-(pr-\d+|master|preview)\.lovebird\.workers\.dev$/) ||
     url.hostname === 'localhost' ||
     url.hostname === '127.0.0.1';
     
@@ -355,7 +355,7 @@ self.addEventListener('message', (event) => {
     }
     
     // Allow Cloudflare Workers preview deployments
-    if (origin.match(/^https:\/\/phialo-(pr-\d+|master|preview)\.meise\.workers\.dev$/)) {
+    if (origin.match(/^https:\/\/phialo-(pr-\d+|master|preview)\.lovebird\.workers\.dev$/)) {
       return true;
     }
     

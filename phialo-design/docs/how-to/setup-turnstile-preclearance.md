@@ -53,8 +53,8 @@ The implementation uses a centralized token management system that:
      - `127.0.0.1` (IP-based access)
      - `phialo.de` (production domain)
      - `*.phialo.de` (subdomains)
-     - `phialo-master.meise.workers.dev` (master preview)
-     - `phialo-pr-*.meise.workers.dev` (PR previews)
+     - `phialo-master.lovebird.workers.dev` (master preview)
+     - `phialo-pr-*.lovebird.workers.dev` (PR previews)
 
 > **Important**: Turnstile requires explicit domain configuration. If you see Error 110200, it means the current domain is not in the allowed list.
 
@@ -255,8 +255,8 @@ This warning is **expected behavior** on workers.dev domains and does not affect
 | Environment | Basic Protection | Pre-clearance | Notes |
 |------------|------------------|---------------|-------|
 | `localhost:4321` | ✅ Works | ✅ Works* | *With test keys only |
-| `phialo-pr-*.meise.workers.dev` | ✅ Works | ❌ Not supported | Console warning expected |
-| `phialo-master.meise.workers.dev` | ✅ Works | ❌ Not supported | Console warning expected |
+| `phialo-pr-*.lovebird.workers.dev` | ✅ Works | ❌ Not supported | Console warning expected |
+| `phialo-master.lovebird.workers.dev` | ✅ Works | ❌ Not supported | Console warning expected |
 | `phialo.de` (production) | ✅ Works | ✅ Works | Full functionality |
 
 **Testing Recommendations**:

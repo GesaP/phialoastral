@@ -24,8 +24,8 @@ This is the **single source of truth** for setting up deployment environments fo
 | Environment | Purpose | URL | Branch |
 |------------|---------|-----|--------|
 | `production` | Live website | https://phialo.de | master |
-| `preview` | PR previews | https://phialo-design-preview.meise.workers.dev | any |
-| `master` | Latest master | https://phialo-master.meise.workers.dev | master |
+| `preview` | PR previews | https://phialo-design-preview.lovebird.workers.dev | any |
+| `master` | Latest master | https://phialo-master.lovebird.workers.dev | master |
 
 ## Prerequisites
 
@@ -128,8 +128,8 @@ For production deployment to use a custom domain (e.g., phialo.de):
    - Site name: `phialo-design-[environment]`
    - Hostname: 
      - Production: `phialo.de`
-     - Preview: `phialo-design-preview.meise.workers.dev`
-     - Master: `phialo-master.meise.workers.dev`
+     - Preview: `phialo-design-preview.lovebird.workers.dev`
+     - Master: `phialo-master.lovebird.workers.dev`
    - Click `Done`
 
 3. **Get Analytics Token**
@@ -152,7 +152,7 @@ For production deployment to use a custom domain (e.g., phialo.de):
    - Domains: 
      - Production: `phialo.de`
      - Preview: `*.workers.dev`
-     - Master: `phialo-master.meise.workers.dev`
+     - Master: `phialo-master.lovebird.workers.dev`
 
 3. **Configure Widget**
    - Widget Mode: `Managed`
@@ -261,7 +261,7 @@ Secrets: All 8 secrets required
 ### Preview Environment
 ```yaml
 Name: preview  
-URL: https://phialo-design-preview.meise.workers.dev
+URL: https://phialo-design-preview.lovebird.workers.dev
 Branch: any (typically PR branches)
 Protection: None
 Secrets: All 8 secrets required
@@ -270,7 +270,7 @@ Secrets: All 8 secrets required
 ### Master Environment
 ```yaml
 Name: master
-URL: https://phialo-master.meise.workers.dev
+URL: https://phialo-master.lovebird.workers.dev
 Branch: master
 Protection: None
 Secrets: All 8 secrets required

@@ -5,7 +5,7 @@ excerpt: "Meistere die Kunst, 2D-Skizzen in druckbare 3D-Modelle zu verwandeln, 
 category: "3d-design"
 language: "de"
 categoryDisplay: "Deutsch - Anfänger"
-image: "/images/thumbnailSkillshare.jpg"
+image: "/images/coverBlue.png"
 duration: "Mehrere Stunden"
 difficulty: "beginner"
 featured: true

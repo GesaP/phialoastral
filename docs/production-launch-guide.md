@@ -52,7 +52,7 @@ zone_id = "YOUR_ZONE_ID"  # MUST REPLACE WITH ACTUAL ZONE ID
 3. Add these domains:
    - phialo.de
    - www.phialo.de
-   - *.meise.workers.dev
+   - *.lovebird.workers.dev
 4. Save the Site Key (public) and Secret Key (private)
 
 ### Phase 2: GitHub Configuration (Day 1-2)
@@ -87,7 +87,7 @@ Create two environments in Settings → Environments:
 
 **Preview Environment:**
 - Name: `preview`
-- URL: `https://phialo-design-preview.meise.workers.dev`
+- URL: `https://phialo-design-preview.lovebird.workers.dev`
 - No protection rules
 - Secrets:
   ```yaml

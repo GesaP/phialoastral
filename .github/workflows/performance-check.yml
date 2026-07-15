@@ -50,20 +50,20 @@ jobs:
               isLocal = context.payload.inputs?.test_local === 'true';
               
               if (prNumber) {
-                targetUrl = `https://phialo-pr-${prNumber}.meise.workers.dev`;
+                targetUrl = `https://phialo-pr-${prNumber}.lovebird.workers.dev`;
               } else {
                 // Testing master branch
-                targetUrl = 'https://phialo-master.meise.workers.dev';
+                targetUrl = 'https://phialo-master.lovebird.workers.dev';
               }
             } else {
               // Triggered by workflow_run
               const workflows = context.payload.workflow_run.pull_requests;
               if (workflows && workflows.length > 0) {
                 prNumber = workflows[0].number;
-                targetUrl = `https://phialo-pr-${prNumber}.meise.workers.dev`;
+                targetUrl = `https://phialo-pr-${prNumber}.lovebird.workers.dev`;
               } else {
                 // Workflow run on master branch
-                targetUrl = 'https://phialo-master.meise.workers.dev';
+                targetUrl = 'https://phialo-master.lovebird.workers.dev';
               }
             }
             
@@ -289,20 +289,20 @@ jobs:
               isLocal = context.payload.inputs?.test_local === 'true';
               
               if (prNumber) {
-                targetUrl = `https://phialo-pr-${prNumber}.meise.workers.dev`;
+                targetUrl = `https://phialo-pr-${prNumber}.lovebird.workers.dev`;
               } else {
                 // Testing master branch
-                targetUrl = 'https://phialo-master.meise.workers.dev';
+                targetUrl = 'https://phialo-master.lovebird.workers.dev';
               }
             } else {
               // Triggered by workflow_run
               const workflows = context.payload.workflow_run.pull_requests;
               if (workflows && workflows.length > 0) {
                 prNumber = workflows[0].number;
-                targetUrl = `https://phialo-pr-${prNumber}.meise.workers.dev`;
+                targetUrl = `https://phialo-pr-${prNumber}.lovebird.workers.dev`;
               } else {
                 // Workflow run on master branch
-                targetUrl = 'https://phialo-master.meise.workers.dev';
+                targetUrl = 'https://phialo-master.lovebird.workers.dev';
               }
             }
             
@@ -526,20 +526,20 @@ jobs:
               isLocal = context.payload.inputs?.test_local === 'true';
               
               if (prNumber) {
-                targetUrl = `https://phialo-pr-${prNumber}.meise.workers.dev`;
+                targetUrl = `https://phialo-pr-${prNumber}.lovebird.workers.dev`;
               } else {
                 // Testing master branch
-                targetUrl = 'https://phialo-master.meise.workers.dev';
+                targetUrl = 'https://phialo-master.lovebird.workers.dev';
               }
             } else {
               // Triggered by workflow_run
               const workflows = context.payload.workflow_run?.pull_requests;
               if (workflows && workflows.length > 0) {
                 prNumber = workflows[0].number;
-                targetUrl = `https://phialo-pr-${prNumber}.meise.workers.dev`;
+                targetUrl = `https://phialo-pr-${prNumber}.lovebird.workers.dev`;
               } else {
                 // Workflow run on master branch
-                targetUrl = 'https://phialo-master.meise.workers.dev';
+                targetUrl = 'https://phialo-master.lovebird.workers.dev';
               }
             }
             
@@ -715,7 +715,7 @@ jobs:
           const isLocal = '${{ steps.pr-details.outputs.is_local }}' === 'true';
           const targetUrl = '${{ steps.pr-details.outputs.target_url }}';
           if (!isLocal && targetUrl) {
-            const shortUrl = targetUrl.replace('https://', '').replace('.meise.workers.dev', '');
+            const shortUrl = targetUrl.replace('https://', '').replace('.lovebird.workers.dev', '');
             report += `**Preview URL:** [${shortUrl}](${targetUrl})\n`;
           }
           report += `**Test Date:** ${new Date().toISOString().split('T')[0]}\n\n`;

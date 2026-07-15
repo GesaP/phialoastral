@@ -179,7 +179,7 @@ jobs:
           if [ "${{ needs.check-command.outputs.environment }}" = "production" ]; then
             echo "deployment_url=https://phialo.de" >> $GITHUB_OUTPUT
           else
-            echo "deployment_url=https://phialo-pr-${{ needs.check-command.outputs.pr_number }}.meise.workers.dev" >> $GITHUB_OUTPUT
+            echo "deployment_url=https://phialo-pr-${{ needs.check-command.outputs.pr_number }}.lovebird.workers.dev" >> $GITHUB_OUTPUT
           fi
       
       - name: Post deployment success
@@ -248,7 +248,7 @@ jobs:
             - All required checks should be passing
             
             **Preview URLs:**
-            - Preview deployments are available at: \`https://phialo-pr-{PR_NUMBER}.meise.workers.dev\`
+            - Preview deployments are available at: \`https://phialo-pr-{PR_NUMBER}.lovebird.workers.dev\`
             - Production deployments are available at: \`https://phialo.de\`
             
             **Notes:**

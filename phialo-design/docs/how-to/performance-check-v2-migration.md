@@ -12,7 +12,7 @@ Performance Check v2 addresses two critical issues with the current performance 
 
 #### 1. Tests Against Real Deployments
 - **Before**: Tests ran against `localhost:4322` (local preview server)
-- **After**: Tests run against deployed PR preview URLs (`https://phialo-pr-{number}.meise.workers.dev`)
+- **After**: Tests run against deployed PR preview URLs (`https://phialo-pr-{number}.lovebird.workers.dev`)
 - **Benefit**: Real-world performance metrics including CDN, edge caching, and actual network latency
 
 #### 2. Collapsible Report Format
@@ -75,7 +75,7 @@ Performance Check v2 addresses two critical issues with the current performance 
 ```markdown
 ## 📊 Core Web Vitals Report
 
-**Test Environment:** 🌐 https://phialo-pr-123.meise.workers.dev
+**Test Environment:** 🌐 https://phialo-pr-123.lovebird.workers.dev
 **Test Date:** 2025-01-24
 
 ### ✅ Excellent - Overall Score: 92/100

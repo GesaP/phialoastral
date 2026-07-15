@@ -132,7 +132,7 @@ deploy_cli() {
     if [ "$ENVIRONMENT" = "production" ]; then
         echo -e "URL: ${YELLOW}https://phialo.de${NC}"
     else
-        echo -e "URL: ${YELLOW}https://phialo-design-preview.meise.workers.dev${NC}"
+        echo -e "URL: ${YELLOW}https://phialo-design-preview.lovebird.workers.dev${NC}"
     fi
 }
 

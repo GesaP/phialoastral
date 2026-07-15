@@ -30,7 +30,7 @@ npx wrangler deploy --env preview
 # Get deployment URL
 echo ""
 echo "→ Getting deployment URL..."
-WORKER_URL="https://phialo-design-preview.meise.workers.dev"
+WORKER_URL="https://phialo-design-preview.lovebird.workers.dev"
 
 # Check if site is accessible
 echo "→ Verifying deployment..."

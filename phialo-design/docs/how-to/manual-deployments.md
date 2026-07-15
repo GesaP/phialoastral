@@ -116,7 +116,7 @@ If you provide a `callback_url`, the workflow will POST back:
 {
   "status": "success",
   "environment": "preview",
-  "url": "https://phialo-design-preview.meise.workers.dev",
+  "url": "https://phialo-design-preview.lovebird.workers.dev",
   "deployed_at": "2025-06-29T10:30:00Z",
   "run_id": "123456789"
 }
@@ -236,8 +236,8 @@ npx wrangler rollback --env production
 
 ### Deployment URLs:
 - **Production**: https://phialo.de
-- **Preview**: https://phialo-design-preview.meise.workers.dev
-- **PR Preview**: https://phialo-pr-{number}.meise.workers.dev
+- **Preview**: https://phialo-design-preview.lovebird.workers.dev
+- **PR Preview**: https://phialo-pr-{number}.lovebird.workers.dev
 
 ### Required Secrets:
 - `CLOUDFLARE_API_TOKEN`: For authentication

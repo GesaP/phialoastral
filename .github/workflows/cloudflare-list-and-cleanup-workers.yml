@@ -165,7 +165,7 @@ jobs:
               echo "  • $worker"
               echo "    Created: $CREATED_DATE"
               echo "    Status: $STATUS"
-              echo "    URL: https://${worker}.meise.workers.dev"
+              echo "    URL: https://${worker}.lovebird.workers.dev"
               echo ""
             done
           fi
@@ -184,16 +184,16 @@ jobs:
               # Determine worker type/URL
               if [[ "$worker" == "phialo-design-preview" ]]; then
                 echo "    Type: Preview environment"
-                echo "    URL: https://phialo-design-preview.meise.workers.dev"
+                echo "    URL: https://phialo-design-preview.lovebird.workers.dev"
               elif [[ "$worker" == "phialo-design" ]]; then
                 echo "    Type: Production"
                 echo "    URL: https://phialo.de"
               elif [[ "$worker" == "phialo-master" ]]; then
                 echo "    Type: Master branch deployment"
-                echo "    URL: https://phialo-master.meise.workers.dev"
+                echo "    URL: https://phialo-master.lovebird.workers.dev"
               else
                 echo "    Type: Custom/Unknown"
-                echo "    URL: https://${worker}.meise.workers.dev"
+                echo "    URL: https://${worker}.lovebird.workers.dev"
               fi
               echo ""
             done

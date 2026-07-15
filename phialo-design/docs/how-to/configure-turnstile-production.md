@@ -44,8 +44,8 @@ In the Cloudflare Dashboard:
    localhost
    localhost:4321
    localhost:4322
-   phialo-master.meise.workers.dev
-   phialo-pr-*.meise.workers.dev
+   phialo-master.lovebird.workers.dev
+   phialo-pr-*.lovebird.workers.dev
    ```
 
 3. Enable these settings:

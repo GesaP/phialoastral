@@ -71,7 +71,7 @@ graph TD
 #### `deploy-master.yml`
 - **Trigger**: Push to master branch
 - **Purpose**: Deploy master to staging environment
-- **Output**: `https://phialo-master.meise.workers.dev`
+- **Output**: `https://phialo-master.lovebird.workers.dev`
 
 #### `deploy-production.yml`
 - **Trigger**: Release published or manual

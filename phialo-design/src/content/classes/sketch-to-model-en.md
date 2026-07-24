@@ -5,7 +5,7 @@ excerpt: "Master the art of converting 2D sketches into printable 3D models usin
 category: "3d-design"
 language: "en"
 categoryDisplay: "English - Beginner"
-image: "/images/coverBlue.png"
+image: "/images/thumbnailSkillshare.jpg"
 duration: "Several hours"
 difficulty: "beginner"
 featured: true

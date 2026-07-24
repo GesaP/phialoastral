@@ -1,28 +1,28 @@
 ---
-title: "Blender 3D Mini: Einen Word-Charm-Anhänger gestalten - 3D-druckbar"
-description: "Gestalten Sie in Blender einen personalisierten, 3D-druckbaren Word-Charm-Anhänger - vom Textaufbau bis zum druckfertigen Export."
-excerpt: "Ein kompaktes Blender-Projekt für einen individuellen Word-Charm-Anhänger, der für den 3D-Druck vorbereitet wird."
+title: "Blender 3D: Einen Word Charm gestalten (3D-druckbar)"
+description: "Verwandeln Sie in Blender ein kurzes Wort in einen persönlichen 3D-Charm, mit einfacher Anhängerform und optionalem druckfertigem Export."
+excerpt: "Ein kompaktes Blender-Projekt für einen individuellen Word Charm, der für den 3D-Druck exportiert werden kann."
 category: "3d-design"
 language: "de"
 categoryDisplay: "English - Beginner"
-image: "/images/thumbnailSkillshare.jpg"
-duration: "Mehrere Stunden"
+image: "/images/WordCharmSkillshare.jpg"
+duration: "17 Min."
 difficulty: "beginner"
 featured: true
 author: "Gesa Pickbrenner"
 tags: ["blender", "3d-druck", "word charm", "anhänger", "schmuckdesign"]
-publishedAt: 2025-06-09
-link: "https://www.skillshare.com/en/classes/blender-3d-mini-make-a-word-charm-pendant-3d-printable/1805226057"
+publishedAt: 2026-03-21
+link: "https://www.skillshare.com/en/classes/blender-3d-make-a-word-charm-3d-printable/1805226057"
 platform: "Skillshare"
 ---
 
-# Blender 3D Mini: Einen Word-Charm-Anhänger gestalten
+# Blender 3D: Einen Word Charm gestalten (3D-druckbar)
 
-Gestalten Sie in Blender einen personalisierten Word-Charm-Anhänger und bereiten Sie ihn für den 3D-Druck vor.
+Gestalten Sie in Blender einen personalisierten Word Charm und bereiten Sie ihn optional für den 3D-Druck vor.
 
 ## Was Sie lernen werden
 
-Dieser kompakte Projektkurs führt Sie durch die wichtigsten Schritte, um in Blender einen individuellen Charm aus 3D-Text zu bauen, eine tragbare Anhängerform anzulegen und das Design für den Export vorzubereiten.
+Dieser kompakte Projektkurs führt Sie durch die wichtigsten Schritte, um in Blender einen individuellen Charm aus 3D-Text zu bauen, eine einfache Rückseite mit Öse anzulegen und das Design für den Export vorzubereiten.
 
 ## Kurs-Highlights
 

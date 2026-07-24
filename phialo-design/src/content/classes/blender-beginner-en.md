@@ -6,7 +6,7 @@ category: "3d-design"
 language: "en"
 categoryDisplay: "English - Beginner"
 image: "/images/Thumbnail_BlenderBeginnerClass.jpg"
-duration: "Several hours"
+duration: "1h 52m"
 difficulty: "beginner"
 featured: true
 author: "Gesa Pickbrenner"

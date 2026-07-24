@@ -12,7 +12,6 @@ on:
     paths:
       - 'phialo-design/**'
       - 'workers/**'
-      - '!phialo-design/**.md'
       - '!phialo-design/docs/**'
       - '!workers/**.md'
       - '!.github/**.md'

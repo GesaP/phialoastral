@@ -45,16 +45,14 @@ const classes = allClasses.map((classItem) => ({
   platform: classItem.data.platform,
   difficulty: classItem.data.difficulty,
   author: classItem.data.author,
-  tags: classItem.data.tags || []
+  tags: classItem.data.tags || [],
+  publishedAt: classItem.data.publishedAt
 })).sort((a, b) => {
-  // Sort by featured first, then by language (current language first)
+  // Sort by featured first, then show newer classes before older ones.
   if (a.featured !== b.featured) {
     return b.featured ? 1 : -1;
   }
-  if (a.language !== b.language) {
-    return a.language === lang ? -1 : 1;
-  }
-  return 0;
+  return b.publishedAt.getTime() - a.publishedAt.getTime();
 });
 ---
 

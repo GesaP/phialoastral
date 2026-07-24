@@ -1,7 +1,7 @@
 ---
-title: "Lerne alles über Kurven und erstelle ein funkelndes Ring-Design"
-description: "Meistere Blenders Kurven-Werkzeuge, um atemberaubende Ring-Designs zu erstellen. Lerne fortgeschrittene Techniken für komplexe Schmuckstücke mit fließenden, eleganten Kurven."
-excerpt: "Entdecke die Macht von Blenders Kurven-System, um wunderschöne, komplizierte Ring-Muster zu designen, die beeindrucken und faszinieren."
+title: "Lernen Sie alles über Kurven und erstellen Sie ein funkelndes Ring-Design"
+description: "Meistern Sie Blenders Kurven-Werkzeuge, um atemberaubende Ring-Designs zu erstellen. Lernen Sie fortgeschrittene Techniken für komplexe Schmuckstücke mit fließenden, eleganten Kurven."
+excerpt: "Entdecken Sie die Macht von Blenders Kurven-System, um wunderschöne, komplizierte Ring-Muster zu designen, die beeindrucken und faszinieren."
 category: "3d-design"
 language: "de"
 categoryDisplay: "3D-Design"
@@ -16,17 +16,17 @@ link: "https://skl.sh/419ltwx"
 platform: "Skillshare"
 ---
 
-# Lerne alles über Kurven und erstelle ein funkelndes Ring-Design
+# Lernen Sie alles über Kurven und erstellen Sie ein funkelndes Ring-Design
 
-Tauche tief in Blenders mächtiges Kurven-System ein und lerne, atemberaubende Ring-Designs zu erstellen, die komplexe, fließende Muster zeigen. Dieser Kurs ist für alle Skill-Level geeignet und konzentriert sich auf praktische Schmuck-Design-Anwendungen.
+Tauchen Sie tief in Blenders mächtiges Kurven-System ein und lernen Sie, atemberaubende Ring-Designs zu erstellen, die komplexe, fließende Muster zeigen. Dieser Kurs ist für alle Skill-Level geeignet und konzentriert sich auf praktische Schmuck-Design-Anwendungen.
 
 ## Kurs-Highlights
 
-- Meistere Blenders Kurven-Werkzeuge
-- Erstelle komplexe Ring-Muster
-- Lerne schmuck-spezifische Techniken
-- Designe funkelnde, professionelle Stücke
-- Verstehe Kurven-zu-Mesh-Arbeitsabläufe
+- Meistern Sie Blenders Kurven-Werkzeuge
+- Erstellen Sie komplexe Ring-Muster
+- Lernen Sie schmuck-spezifische Techniken
+- Gestalten Sie funkelnde, professionelle Stücke
+- Verstehen Sie Kurven-zu-Mesh-Arbeitsabläufe
 
 ## Für wen ist dieser Kurs geeignet
 

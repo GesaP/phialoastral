@@ -1,7 +1,7 @@
 ---
 title: "Blender lernen - 3D-Design für absolute Anfänger (Englischsprachiger Kurs)"
-description: "Lerne Blender und 3D-Design von Grund auf in diesem strukturierten englischsprachigen Kurs für absolute Anfänger."
-excerpt: "Der perfekte englischsprachige Einstieg in Blender. Lerne 3D-Design Schritt für Schritt und ohne Vorkenntnisse."
+description: "Lernen Sie Blender und 3D-Design von Grund auf in diesem strukturierten englischsprachigen Kurs für absolute Anfänger."
+excerpt: "Der perfekte englischsprachige Einstieg in Blender. Lernen Sie 3D-Design Schritt für Schritt und ohne Vorkenntnisse."
 category: "3d-design"
 language: "de"
 categoryDisplay: "Englisch - Anfängerniveau"
@@ -19,9 +19,9 @@ directLink: "https://gesa-pickbrenner-s-school.teachable.com/p/learn-blender-3d-
 
 # Blender lernen - 3D-Design für absolute Anfänger
 
-Dieser umfassende englischsprachige Kurs führt dich Schritt für Schritt in die Welt des 3D-Designs mit Blender ein. Er ist ideal für absolute Anfänger ohne Vorkenntnisse in 3D-Software.
+Dieser umfassende englischsprachige Kurs führt Sie Schritt für Schritt in die Welt des 3D-Designs mit Blender ein. Er ist ideal für absolute Anfänger ohne Vorkenntnisse in 3D-Software.
 
-## Das lernst du
+## Das lernen Sie
 
 - Grundlagen der Blender-Oberfläche
 - Grundlegende Modellierungstechniken
@@ -37,4 +37,4 @@ Dieser umfassende englischsprachige Kurs führt dich Schritt für Schritt in die
 - **Plattformen**: Skillshare und Direktkauf
 - **Kursleiterin**: Gesa Pickbrenner
 
-Starte mit einem strukturierten und leicht verständlichen Einstieg in die 3D-Welt.
+Starten Sie mit einem strukturierten und leicht verständlichen Einstieg in die 3D-Welt.

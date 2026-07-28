@@ -1,7 +1,7 @@
 ---
 title: "Jewelry Doodles Made Simple: Spielerisch Ringe und Anhänger skizzieren (Englischsprachiger Kurs)"
-description: "Verwandle einfache Kritzeleien in spielerische Schmuckideen und skizziere Ringe, Charms und Anhänger mit mehr Sicherheit."
-excerpt: "Entwickle aus Herzen, Sternen, Wirbeln und anderen einfachen Formen lebendige Schmuckskizzen."
+description: "Verwandeln Sie einfache Kritzeleien in spielerische Schmuckideen und skizzieren Sie Ringe, Charms und Anhänger mit mehr Sicherheit."
+excerpt: "Entwickeln Sie aus Herzen, Sternen, Wirbeln und anderen einfachen Formen lebendige Schmuckskizzen."
 image: "/images/BeCreativeJewelryDrawing.jpg"
 duration: "1 Std. 35 Min."
 category: "design"
@@ -18,11 +18,11 @@ publishedAt: 2025-07-07
 
 # Jewelry Doodles Made Simple: Spielerisch Ringe und Anhänger skizzieren
 
-Verwandle einfache Kritzeleien in spielerische Schmuckideen für Ringe, Charms und Anhänger.
+Verwandeln Sie einfache Kritzeleien in spielerische Schmuckideen für Ringe, Charms und Anhänger.
 
 ## Was Sie lernen werden
 
-Dieser entspannte, anfängerfreundliche Kurs zeigt dir, wie einfache Formen mit Glanz und Dimension zu ausdrucksstarken Schmuckskizzen werden.
+Dieser entspannte, anfängerfreundliche Kurs zeigt Ihnen, wie einfache Formen mit Glanz und Dimension zu ausdrucksstarken Schmuckskizzen werden.
 
 ## Kurs-Highlights
 

@@ -1,7 +1,7 @@
 ---
 title: "Von der Skizze zum Modell - Design für 3D-Druck mit Blender"
-description: "Verwandle deine kreativen Skizzen in professionelle 3D-Modelle, die druckbereit sind. Lerne den kompletten Arbeitsablauf vom Konzept bis zum fertigen Druck."
-excerpt: "Meistere die Kunst, 2D-Skizzen in druckbare 3D-Modelle zu verwandeln, mit Blenders mächtigen Modellierungs-Werkzeugen."
+description: "Verwandeln Sie Ihre kreativen Skizzen in professionelle 3D-Modelle, die druckbereit sind. Lernen Sie den kompletten Arbeitsablauf vom Konzept bis zum fertigen Druck."
+excerpt: "Meistern Sie die Kunst, 2D-Skizzen in druckbare 3D-Modelle zu verwandeln, mit Blenders mächtigen Modellierungs-Werkzeugen."
 category: "3d-design"
 language: "de"
 categoryDisplay: "Deutsch - Anfänger"
@@ -18,7 +18,7 @@ platform: "Skillshare"
 
 # Von der Skizze zum Modell - Design für 3D-Druck mit Blender
 
-Lerne, wie du deine kreativen Skizzen in professionelle 3D-Modelle verwandelst, die für den 3D-Druck bereit sind. Dieser Kurs führt dich durch den kompletten Arbeitsablauf vom ersten Konzept bis zum fertigen druckbaren Modell.
+Lernen Sie, wie Sie Ihre kreativen Skizzen in professionelle 3D-Modelle verwandeln, die für den 3D-Druck bereit sind. Dieser Kurs führt Sie durch den kompletten Arbeitsablauf vom ersten Konzept bis zum fertigen druckbaren Modell.
 
 ## Kursinhalte
 

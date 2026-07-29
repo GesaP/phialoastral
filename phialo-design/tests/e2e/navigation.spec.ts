@@ -68,6 +68,21 @@ test.describe('Navigation Tests', () => {
   });
 
   test.describe('Main Navigation', () => {
+    test('Should link to the YouTube channel in both languages', async ({ page }) => {
+      for (const path of ['/', '/en/']) {
+        await page.goto(path);
+
+        const youtubeLinks = page.locator(
+          'header a[href="https://www.youtube.com/@PhialoDesign"]'
+        );
+
+        await expect(youtubeLinks).toHaveCount(2);
+        await expect(youtubeLinks.first()).toHaveText('YouTube');
+        await expect(youtubeLinks.first()).toHaveAttribute('target', '_blank');
+        await expect(youtubeLinks.first()).toHaveAttribute('rel', 'noopener noreferrer');
+      }
+    });
+
     test('@critical Should navigate to all main sections in German', async ({ page, isMobile }) => {
       await page.goto('/');
       
